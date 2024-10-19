@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Support Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #232F3E;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #232F3E;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #232F3E;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .faq {
+            margin-bottom: 20px;
+        }
+        .faq h3 {
+            color: #333;
+        }
+        .faq p {
+            margin: 5px 0;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        form button {
+            background-color: #ff9900;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #232F3E;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amazon Customer Support</h1>
+</header>
+
+<nav>
+    <a href="#faqs">FAQs</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#feedback">Feedback</a>
+</nav>
+
+<div class="container">
+    <section id="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>How do I track my order?</h3>
+            <p>You can track your order by going to "Your Orders" section and selecting the order you want to track.</p>
+        </div>
+        <div class="faq">
+            <h3>How do I return an item?</h3>
+            <p>Go to "Your Orders" and select the item you want to return. Follow the instructions to initiate a return.</p>
+        </div>
+        <div class="faq">
+            <h3>What payment methods are accepted?</h3>
+            <p>We accept credit/debit cards, Amazon Pay, and PayPal.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need further assistance, please contact us through one of the following options:</p>
+        <ul>
+            <li>Email: support@amazon.com</li>
+            <li>Phone: 1-800-123-4567</li>
+            <li>Live Chat: Available 24/7</li>
+        </ul>
+    </section>
+
+    <section id="feedback">
+        <h2>Leave Us Feedback</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Feedback:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Amazon. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
